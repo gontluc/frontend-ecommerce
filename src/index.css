@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* Avoid selection */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+html {
+  --grey: #333;
+}
+
+body {
+  cursor: default;
+  font-size: large;
+  color: var(--grey);
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:visited {
+  color: inherit;
+}
+
+@keyframes cart-symbol-anim {
+  from {
+      transform: translateY(-500px);
+  }
+  to {
+      transform: translateY(0);
+  }
+}

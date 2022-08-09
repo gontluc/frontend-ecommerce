@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b0bee24.css",
+    "main.js": "/static/js/main.c33cfcf8.js",
+    "static/media/showcase.jpg": "/static/media/showcase.19e6f10adad988352fb7.jpg",
+    "static/media/pomegranate.jpg": "/static/media/pomegranate.b978a5dcdae1cd87ae41.jpg",
+    "static/media/pumpkin.jpg": "/static/media/pumpkin.3e0a545ac5fd6b52fabb.jpg",
+    "static/media/grapes.jpg": "/static/media/grapes.330c12ce16cffac5aa3d.jpg",
+    "static/media/mushroom.jpg": "/static/media/mushroom.01bdc091a622e0f7c6ab.jpg",
+    "static/media/orange.jpg": "/static/media/orange.285cafbf83e411c0a942.jpg",
+    "static/media/milk.jpg": "/static/media/milk.1559d8abe6cadae0ab4f.jpg",
+    "static/media/payment4.png": "/static/media/payment4.fabbd41c0ed889d3f929.png",
+    "static/media/payment3.png": "/static/media/payment3.762febabfd33d26622a7.png",
+    "static/media/logo.png": "/static/media/logo.ec65ac20409bfd0b0d40.png",
+    "static/media/payment2.png": "/static/media/payment2.23de67180c29c3c3c30d.png",
+    "index.html": "/index.html",
+    "main.9b0bee24.css.map": "/static/css/main.9b0bee24.css.map",
+    "main.c33cfcf8.js.map": "/static/js/main.c33cfcf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0bee24.css",
+    "static/js/main.c33cfcf8.js"
+  ]
+}

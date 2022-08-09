@@ -1,0 +1,11 @@
+.new-item {
+    position: fixed;
+    right: 22px;
+    top: 102px;
+    background-color: rgb(4, 179, 4);
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    z-index: 2;
+    animation: cart-symbol-anim forwards .4s ease-in-out;
+}
