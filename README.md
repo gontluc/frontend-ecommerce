@@ -2,7 +2,7 @@
 
 Frontend code of a fake eCommerce called Organic eCommerce
 
-React.js | Typescript
+React.js | Typescript | CSS
 
 @gontluc August 2022
 
