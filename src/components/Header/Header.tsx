@@ -10,7 +10,7 @@ type HeaderType = {
 const Header = ({ cart, setCart }: HeaderType) => {
   return (
     <div className='header'>
-        <a href="#">
+        <a href="/">
             <div className='header-section'>
                 <img src={logo} alt="logo" className='logo-img'/>
                 <div className='logo-title'>Organic eCommerce</div>

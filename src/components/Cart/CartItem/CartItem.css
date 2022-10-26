@@ -3,7 +3,7 @@
     border-top: #ccc solid 2px;
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     margin: 10px 0;
     padding: 10px 0;
     padding-top: 20px;
@@ -86,4 +86,15 @@
 
 .delete-item:active {
     transform: scale(.9);
+}
+
+@media (max-width: 1200px) {
+    .item-img {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .item-img img{
+        height: 55px;
+    }
 }

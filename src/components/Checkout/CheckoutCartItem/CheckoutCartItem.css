@@ -54,3 +54,18 @@
     margin-bottom: 10px;
     font-size: smaller;
 }
+
+@media (max-width: 500px) {
+    .checkout-item-title {
+        font-size: x-small;
+    }
+    
+    .checkout-item-price {
+        font-size: x-small;
+    }
+    
+    .checkout-item-units-number {
+        font-size: x-small;
+        padding: 6px 15px;
+    } 
+}

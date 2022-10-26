@@ -29,32 +29,32 @@ function App() {
     {
       pimg: pomegranate, 
       ptitle: 'Pomegranate',
-      pdescription: 'Organic milk produced by our family farm.',
+      pdescription: 'Mouthwatering pomegranates produced by our family grounds.',
       pprice: 4.99
     },
     {
       pimg: grapes, 
       ptitle: 'Grapes',
-      pdescription: 'Organic milk produced by our family farm.',
-      pprice: 4.99
+      pdescription: 'Delicious grapes produced by our family grounds.',
+      pprice: 5.99
     },
     {
       pimg: pumpkin, 
       ptitle: 'Pumpkin',
-      pdescription: 'Organic milk produced by our family farm.',
-      pprice: 4.99
+      pdescription: 'Fresh pumpkins produced by our family grounds.',
+      pprice: 6.99
     },
     {
       pimg: orange, 
       ptitle: 'Orange',
-      pdescription: 'Organic milk produced by our family farm.',
-      pprice: 4.99
+      pdescription: 'Sweet oranges produced by our family grounds.',
+      pprice: 7.99
     },
     {
       pimg: mushroom, 
       ptitle: 'Mushroom',
-      pdescription: 'Organic milk produced by our family farm.',
-      pprice: 4.99
+      pdescription: 'Tasty mushrooms produced by our family grounds.',
+      pprice: 8.99
     }
   ])
 
@@ -71,15 +71,15 @@ function App() {
 
   /* Checkout page */
   const [inCheckout, setInCheckout] = useState(false)
-  
+
   return (
     <div className="App">
       {inCheckout 
         ? <Checkout 
-          inCheckout={inCheckout}
-          setInCheckout={setInCheckout}
-          items={items}
-        /> 
+            inCheckout={inCheckout}
+            setInCheckout={setInCheckout}
+            items={items}
+          /> 
         : <>
           <Header cart={cart} setCart={setCart}/>
           <Showcase />

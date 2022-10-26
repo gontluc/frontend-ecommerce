@@ -1,6 +1,6 @@
 .products {
     width: 100%;
-    height: 1100px;
+    min-height: 1100px;
 }
 
 .products-title {
@@ -13,6 +13,27 @@
 .product-items {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0 100px;
 }
+
+@media (max-width: 1200px) {
+    .products-title {
+        margin: 30px;
+        margin-left: 10vw;
+        font-size: x-large;
+    }
+    
+    .product-items {
+        margin: 0 10vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .product-items {
+        display: flex;
+        justify-content: center;
+    }
+}
+

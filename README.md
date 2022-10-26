@@ -14,10 +14,6 @@ React.js | Typescript
 
 <br />
 
-Important: Not responsive, only desktop.
-
-<br />
-
 # Dependencies
 
 * react-icons

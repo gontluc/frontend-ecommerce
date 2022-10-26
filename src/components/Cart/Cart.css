@@ -49,7 +49,7 @@
 .cart-items {
     margin: 0 30px;
     margin-right: 10px;
-    height: 400px;
+    max-height: 70vh;
     overflow-y: scroll;
     padding-right: 10px;
 }
@@ -87,4 +87,31 @@
 
 .checkout-btn:active {
     transform: scale(.9);
+}
+
+@media (max-width: 1200px) {
+    .cart {
+        width: 350px;
+    }
+
+    .cart-title {
+        padding: 20px 30px;
+    }
+
+    .cart-title h2 {
+        font-size: large;
+    }
+
+    .subtotal {
+        font-size: medium;
+    }
+    
+    .final-price {
+        font-size: medium;
+    }
+    
+    .checkout-btn {
+        padding: 5px 10px;
+        font-size: medium;
+    }
 }

@@ -12,7 +12,7 @@
 
 .header-section {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     cursor: pointer;
 }
@@ -40,4 +40,30 @@
     margin-left: 10px;
     font-weight: bold;
     margin-right: 80px;
+}
+
+@media (max-width: 900px) {
+    .header {
+        height: 60px;
+    }
+    
+    .logo-img {
+        width: 40px;
+        margin-left: 5vw;
+    }
+    
+    .logo-title {
+        font-size: large;
+        margin-left: 5px;
+    }
+    
+    .cart-icon {
+        font-size: 100%;
+    }
+    
+    .cart-header-title {
+        margin-right: 5vw;
+        margin-left: 5px;
+        font-size: medium;
+    }
 }

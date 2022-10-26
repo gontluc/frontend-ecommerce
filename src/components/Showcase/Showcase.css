@@ -1,12 +1,14 @@
 .showcase {
     width: 100%;
-    height: 500px;
+    height: auto;
+    max-height: 500px;
     overflow: hidden;
 }
 
 .showcase img {
     width: 110%;
-    animation: move-showcase 60s ease-in-out infinite
+    height: max-content;
+    animation: move-showcase 100s ease-in-out infinite
 }
 
 @keyframes move-showcase {
@@ -16,5 +18,19 @@
 
     50% {
         transform: translateY(-300px);
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .showcase {
+        max-height: auto;
+        height: 25vh;
+    }
+
+    .showcase img {
+        animation: none;
+        width: 100%;
+        height: auto;
     }
 }
