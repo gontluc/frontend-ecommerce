@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-        Organic eCommerce &copy; Copyright 2022
+        Organic eCommerce &copy; Copyright 2024
     </div>
   )
 }

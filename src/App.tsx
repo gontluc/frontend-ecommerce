@@ -19,7 +19,7 @@ import mushroom from './images/mushroom.jpg'
 function App() {
 
   /* Products to sell */
-  const [products, setProducts] = useState([
+  const products = [
     {
       pimg: milk, 
       ptitle: 'Cow Milk',
@@ -56,14 +56,13 @@ function App() {
       pdescription: 'Tasty mushrooms produced by our family grounds.',
       pprice: 8.99
     }
-  ])
+  ]
 
   /* Activate view cart */
   const [cart, setCart] = useState(false)
 
   /* Items to buy */
-  const [items, setItems] = useState([
-  ])
+  const [items, setItems] = useState([])
   /* Each element: {pimg, ptitle, pprice, punits} */
 
   /* Trigger adding new item animation */
